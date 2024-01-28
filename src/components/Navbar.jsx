@@ -3,11 +3,10 @@ import { useNavigate } from "react-router-dom"
 
 function Navbar() {
     const navigate = useNavigate()
-
     return (
     <div className="navbar bg-base-100">
         <div className="navbar-start cursor-pointer" onClick={()=>navigate('/')}>
-            <img src={Logo} width="100" height="100"/>
+            <img src={Logo} alt="logo" width="100" height="100"/>
             <div className="flex-1 prose">
                 <h1 className="text-primary">SnapChef</h1>
             </div>
