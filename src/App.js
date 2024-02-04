@@ -2,9 +2,11 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home"
 import About from "./pages/About";
+import { ToastContainer } from "react-toastify";
 function App() {
   return (
     <>
+      <ToastContainer/>
       <Router>
           <Navbar/>
           <div className="pb-5">
@@ -14,6 +16,7 @@ function App() {
             </Routes>
           </div>
       </Router>
+
     </>
   );
 }
