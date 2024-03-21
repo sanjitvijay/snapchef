@@ -12,4 +12,4 @@ For the front-end, I used React and TailwindCSS, along with the daisyui componen
 For the back-end, I used supabase for user authentication and file storage along with node.js to handle API calls. 
 To process the images and extract the ingredients from them, I utilized the GPT-4 Vision API. Once the images were retrieved, I used the GPT-3.5-Turbo API to generate step-by-step recipes that the user can use. 
 
-By <sanjitv@umich.edu>
+By Sanjit Vijay <sanjitv@umich.edu>, Anish Shanbhag <shanbhag@umich.edu>, Vishnu Parthiban <vishnupa@umich.edu>
